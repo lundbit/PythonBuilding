@@ -1,0 +1,65 @@
+quit()   #quits python in command line
+mxdir lpthw  #makes a new directory called "lpthw"
+dir #show the contents of the directory
+cd lpthw # moves to directory where exercise files are
+ls   #lists the files in the directory
+python ex1.py # tells the computer to run a script called "ex1.py" as a python program
+
+
+print("")  # prints contents in the terminal
+# using an octothorpe allows comments in python.   I'm using it in the text file for practice.
+# math operators all work:    + - / * % < > <= >=
+# results can return Boolean 'True' or 'False'
+# % performs MOD which presents remainder of division operation X % Y, x=16, y=4 --> 0
+cars = 0 # varaible must not start with number, best practice lower case, no spaces allowed
+cars = 0 + dog # won't work because not same type
+int(dog) # will convert number strings into numbers...wont' work if dog is a non-numeric string
+dog ='muffin' # double and single quotes work
+""" Have fuuuuun.    ,,,,.... """   # triple quotes allow text freedom
+{variable} # this can be named
+print(f"{variable} <--whoa you printed variable!") # need to use print(f"{}") to include variables
+round()  # rounds integer to nearest number
+x= f"There are {y} dogs"  # assigns the print function result to another variable, X
+print(x) #prints what x stands for
+print{x + e) # can add strings together is x='a' and e='ha!'
+print("a" * 10) # will print 10 'a's.   You can add strings using operators
+.format # allows you to format multiple arguments
+formatter.format(1, 2, 3, 4) better have [formatter = "{} {} {} {}"]   FOUR aruments
+\n # creates a new line for the .readline functions inside python
+\" # escapes double quotes [see flash cards]
+age=input()  # assigns the input from terminal to variable called age
+input("How old are you?") # Asks a question NO ASSIGNMENT
+age = input("How old are you?) # assigns the input from terminal to variable called age
+from sys import argv # argv is argument variable imported from module set 'sys'
+a, b, c, d = argv # unpacks and assigns variables in order
+
+on command line...   "python ex14.py brad"  # passed a script and my named
+script, user_name = argv # can be unpacked by argv from CL prompt   make sure #s are same
+open('whatever') # opens that filename, usually unpacked from argv
+print(variable.read() # reads variable which is usually assigned to a file to be read
+target = open(filename, 'w') # basically rewrites file upon opening to import state
+target.truncate() # truncates or erases the file
+target.write(var3) # writes those lines to the file in order 
+target.close() # works like save as
+from os.path import exisits # exists command returns True if a file exists
+def name(*args) # defines a funciton called name with arguments  *args puts them in a list
+
+def name(arg1, arg2) 
+    betterindent
+and then dedent
+
+f.seek(0) # goes to first byte of code
+f.readline() # tracks which line of output, using \n feature
++= # x += y --> x = x + y 
+return # must be inside function and returns values into the program
+return a + b # returns the addition of variable a and basically
+
+DBES = "Decode Bytes Encode Strings"
+for UTF-8
+
+python uses .encode() to get bytes you need to create recognizable strings
+
+
+
+
+
